@@ -112,6 +112,16 @@ img {
   margin-right: var(--mb-2);
 }
 
+/*===== LAYOUT =====*/
+.bd-grid-mobile {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: var(--mb-2);
+  margin-right: var(--mb-2);
+}
+
 .l-header {
   width: 100%;
   position: fixed;
@@ -241,6 +251,11 @@ img {
   width: 260px;
 }
 
+.home__img_mobile {
+  right: 0;
+  bottom: 10vh;
+}
+
 .home__blob {
   fill: var(--first-color);
 }
@@ -362,10 +377,13 @@ img {
   box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
   border-radius: 0.5rem;
   overflow: hidden;
+  margin: 5px;
 }
 
 .work__img img {
   transition: 1s;
+  height: 300px;
+  width: 300px;
 }
 
 .work__img img:hover {
